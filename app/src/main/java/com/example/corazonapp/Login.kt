@@ -18,6 +18,8 @@ class Login : AppCompatActivity() {
 
         val btn2: Button = findViewById(R.id.crear_cuenta)
         val btn4: Button = findViewById(R.id.crear_cuenta)
+        val btn5: Button = findViewById(R.id.crear_cuenta)
+        val btn6: Button = findViewById(R.id.crear_cuenta)
 
         btn2.setOnClickListener{
             val intent: Intent = Intent(this, Registro_User::class.java)
