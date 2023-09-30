@@ -17,6 +17,8 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val btn2: Button = findViewById(R.id.crear_cuenta)
+        val btn3: Button = findViewById(R.id.crear_cuenta)
+
         btn2.setOnClickListener{
             val intent: Intent = Intent(this, Registro_User::class.java)
             startActivity(intent)
